@@ -1151,12 +1151,6 @@
     padding: 1.5rem;
   }
 
-  .testimonial-card-top {
-    align-items: flex-start;
-    flex-direction: column;
-    gap: 0.75rem;
-  }
-
   .google-reviews-button {
     width: 100%;
     justify-content: center;
