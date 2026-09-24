@@ -1152,8 +1152,7 @@
   }
 
   .google-reviews-button {
-    width: 100%;
-    justify-content: center;
+    align-self: center;
   }
 }
 
