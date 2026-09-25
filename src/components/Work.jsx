@@ -45,12 +45,6 @@ export default function Work() {
   };
 
   const handlePointerDown = (e) => {
-    // On touch screens only the handle starts a drag, so tapping or
-    // scrolling over the photo doesn't move the slider.
-    if (e.pointerType !== "mouse" && !e.target.closest(".comparison-handle")) {
-      return;
-    }
-
     e.currentTarget.setPointerCapture(e.pointerId);
     updatePosition(e.clientX);
   };

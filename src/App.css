@@ -429,19 +429,11 @@
   background: #dce2e8;
 
   cursor: ew-resize;
-  touch-action: pan-y;
+  touch-action: none;
 
   box-shadow:
     0 20px 60px rgba(24, 36, 48, 0.08),
     0 2px 8px rgba(24, 36, 48, 0.04);
-}
-
-/* Bigger touch target than the visible circle */
-.comparison-handle::before {
-  content: "";
-  position: absolute;
-  inset: -14px;
-  border-radius: 50%;
 }
 
 .comparison-image,
@@ -544,10 +536,6 @@
 
 .comparison-handle {
   position: absolute;
-
-  pointer-events: auto;
-  touch-action: none;
-  cursor: grab;
 
   top: 50%;
   left: 50%;
