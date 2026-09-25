@@ -46,7 +46,7 @@ export default function Footer() {
                 marginBottom: '1.5rem',
               }}
             >
-              Reliable window and exterior cleaning for Brisbane and the Sunshine Coast. No fuss, just a polished finish.
+              Premium mobile car detailing across Brisbane. Interior, exterior and ceramic coating, done at your door.
             </p>
 
             {/* Social */}
